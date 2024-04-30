@@ -4,5 +4,6 @@ Paul Armstrong <parmstro@redhat.com>; Mike Savage <msavage@redhat.com>;
 1.0, 2024-04-19
 :compat-model!:
 :toc: left
+:sectnums:
 
 include::introduction.adoc[leveloffset=+1]
