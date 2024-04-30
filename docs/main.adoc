@@ -3,6 +3,7 @@ The Red Hat Infrastructure Standard Adoption Model
 Paul Armstrong <parmstro@redhat.com>; Mike Savage <msavage@redhat.com>; 
 1.0, 2024-04-19
 :compat-model!:
+:toc: left
 
 == Introduction
 === What is the Red Hat Infrastructure Standard Adoption Model
