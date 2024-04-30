@@ -2,14 +2,16 @@
 
 == What is the Red{nbsp}Hat Infrastructure Standard Adoption Model
 
-The Red{nbsp}Hat Infrastructure Standard{nbsp}(RH-IS) is a framework for using integrated Red{nbsp}Hat technologies to build, manage, automate, optimize, and maintain Red{nbsp}Hat Enterprise{nbsp}Linux at scale in a hybrid multicloud. RH-ISAM consists of the things we build.
+The Red{nbsp}Hat Infrastructure Standard{nbsp}(RH-IS) is a framework for using integrated Red{nbsp}Hat technologies to build, manage, automate, optimize, and maintain Red{nbsp}Hat Enterprise{nbsp}Linux at scale in a hybrid multicloud environment. RH-IS involves the deployment, configuration, and use of the following Red{nbsp}Hat products:
+
+- Red{nbsp}Hat Identity Management
+- Red{nbsp}Hat Satellite
+- Red{nbsp}Hat Ansible Automation Platform
+
+RH-IS leverages the link:https://console.redhat.com[*Red Hat Hybrid Cloud Console*] to deploy, patch, maintain, secure, automate, and ensure compliance of the Red{nbsp}Hat Enterprise{nbsp}Linux systems across a hybrid multicloud environment.
 
 The Red Hat Infrastructure Standard Adoption Model (RH-ISAM) is the process customers use when designing, configuring, and implementing the RH-IS within their organization.  
-One of the fundamental principles of the RH-ISAM is "everything-as-code".
-
-____
-By following "everything-as-code", the Red{nbsp}Hat Infrastructure Standard Adoption Model brings repeatability, consistency, and stability.
-____
+One of the fundamental principles of the RH-ISAM is "everything-as-code". By following "everything-as-code", the Red{nbsp}Hat Infrastructure Standard Adoption Model brings repeatability, consistency, and stability.
 
 The RH-ISAM uses standard Red{nbsp}Hat management tools already present within a Red{nbsp}Hat Enterprise{nbsp}Linux environment and unifies them with process and automation to deliver a modern Standard Operating Environment. 
 
@@ -24,13 +26,5 @@ SOEs enable automation. Without an SOE, automation adds more work to creating a 
 The SOE allows you to deliver proven design patterns in automation. The extension of the automation process can then evolve beyond simple configuration and extend to systems generation and event-driven response. 
 
 == Advantages of implementing the Red Hat Infrastructure Standard
-
-The Red{nbsp}Hat Infrastructure Standard{nbsp}(RH-IS) is an opinionated framework for the deployment, configuration, and use of the following Red{nbsp}Hat products:
-
-- Red{nbsp}Hat Identity Management
-- Red{nbsp}Hat Satellite
-- Red{nbsp}Hat Ansible Automation Platform
-
-It leverages the link:https://console.redhat.com[*Red Hat Hybrid Cloud Console*] to deploy, patch, maintain, secure, automate, and ensure compliance of the Red{nbsp}Hat Enterprise{nbsp}Linux systems across a hybrid multicloud environment.
 
 GitOps practices are used in the process to define the desired states and conduct tests on management infrastructure and managed systems through an infrastructure-as-code pipeline. The model focuses on delivering these capabilities for bare-metal, virtual, and container host instances to increase service quality, reduce operator burden, and scale to deliver the capacity necessary for modern business IT. The most important outcome of the model is that it positions your organization to take full advantage of cloud-native patterns across your data center and cloud footprint. The methodologies used in the RH-ISAM dovetail with the methodologies customers are adopting for managing cloud-native architectures that leverage container development platforms, like Red Hat OpenShift. Implementing the Red Hat Infrastructure Standard Adoption Model in your organization will ensure alignment between traditional and cloud-native services and ease application transitions.
